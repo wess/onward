@@ -3,7 +3,7 @@ defmodule Onward.MixProject do
 
   @source_url "https://github.com/wess/onward"
   @description "A Plug to proxy requests to another location"
-  @version "0.0.1"
+  @version "0.0.2"
 
   def project do
     [

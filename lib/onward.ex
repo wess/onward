@@ -1,4 +1,4 @@
-defmodule ProxyPlug do
+defmodule Onward do
   @moduledoc """
   A plug module for proxying paths to another location using a macro.
 
@@ -6,7 +6,7 @@ defmodule ProxyPlug do
 
       defmodule MyRouter do
         use Plug.Router
-        use ProxyPlug
+        use Onward
 
         plug :match
         plug :dispatch
