@@ -23,7 +23,7 @@ To use Onward, create a router or plug module and use the proxy macro to define 
 ```elixir
 defmodule MyRouter do
   use Plug.Router
-  use ProxyPlug
+  use Onward
 
   plug :match
   plug :dispatch
